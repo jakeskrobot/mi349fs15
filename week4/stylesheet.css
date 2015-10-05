@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* Jake Skrobot's CSS Document. 
+Light Gray: #cccccc
+Dark Gray: #666666
+Green: #05B22A
+Purple: #5012B2
+*/
+
+
+html {
+	background-color: #666666;
+
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto; 
+	border-color: #5012B2;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: #05B22A;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	background-color: #5012B2;
+	color: #cccccc;
+	font-family: 'Bangers', cursive;
+	font-size: 100px;
+	margin-bottom: -18px;
+}
+
+h2 {
+	padding: 7px;
+	color: #5012B2;
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	margin-bottom: -10px;
+}
+
+h3 {
+	color: black;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+p {
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+.elevator {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.persona {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+img {
+	border-color: #5012B2;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
