@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	font-size: 100px;
+	text-align: center;
+}
+
+p{
+	border: solid 1px #ccc;
+	margin: 2px;
+}
+
+
+.left {
+	float: left; width: 33%;
+}
+
+.center {
+	float: left; width: 33%;
+}
+
+.right {
+	float: left; width: 33%;
+}
+
+@media (max-width: 1200px) {
+	.left {
+		float: left; width: 33%;
+	}
+
+	.center {
+		float: left; width: 33%;
+	}
+
+	.right {
+		float: left; width: 33%;
+	}
+}
+
+@media (max-width: 800px) {
+	.left {
+		float: left; width: 50%;
+	}
+
+	.center {
+		float: left; width: 50%;
+	}
+
+	.right {
+		float: in-line;
+	}
+}
+
+@media (max-width: 400px) {
+	.left {
+		float: left; width: 100%;
+	}
+
+	.center {
+		float: in-line; width: 100%;
+	}
+
+	.right {
+		float: in-line; width: 100%;
+	}
+}

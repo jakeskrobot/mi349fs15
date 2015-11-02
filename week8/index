@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>3 Column Webpage Lab</title>
+	</head>
+
+	<body>
+		<header>Week 8 Lab</header>
+		
+		<p class="left">
+		</p>
+		<p class="center">
+		</p>
+		<p class="right">
+		</p>
+	
+	</body>
+
+</html>
