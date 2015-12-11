@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* Jake Skrobot's CSS Document. 
+Light Gray: #cccccc
+Dark Gray: #666666
+Green: #05B22A
+Purple: #5012B2
+*/
+
+
+
+
+html {
+	background-color: #666666;
+	background-image: url("grey_texture.jpg");
+
+}
+
+body {
+	width: 800px;
+	margin: 1.5em auto; 
+	border-color: #5012B2;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: white;
+}
+
+#nav {
+	background-color: #5012B2;
+	margin-top 5px;
+	text-align: center;
+	margin-bottom: 10px;
+	list-style-type: none;
+	padding: 5px;
+}
+
+#nav li {
+	display: inline;
+}
+#nav a {
+	background-color: #5012B2;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#nav a:hover {
+	color: #05B22A;
+}
+
+
+h1 {
+	text-align: center;
+	background-color: #5012B2;
+	color: #cccccc;
+}
+
+h2 {
+	color: #5012B2;
+}
+
+h3 {
+	color: #5012B2;
+}
+
+img {
+	border-color: #5012B2;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#banner {
+	text-align: center;
+}
+
+.obsphotos {
+	height: 467px;
+	width: 667px;
+}
+
+.chatty {
+	width: 500px;
+	height: 515px;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #cccccc;
+}
+
+footer {
+	text-align: center;
+	margin-top: 150px;
+}
+
+@media screen and (max-width:950px){
+	body{
+		width: 80%;
+	}
+	
+	.obsphotos {
+	height: 281px;
+	width: 401px;
+	}
+
+	.chatty {
+		width: 300px;
+		height: 310px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	body{
+		width: 700px; /* point where content can get no smaller */
+	}
+}
